@@ -20,7 +20,7 @@ public:
 
                 if(c == ']' && st.top() != '[')
                     return false;
-
+                else
                 st.pop();
             }
         }
